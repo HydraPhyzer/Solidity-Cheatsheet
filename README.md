@@ -218,7 +218,7 @@ contract MyConstants{
 ---
 10. Constructor in Solidity
 
-```.solidity
+```solidity
 contract Constructor{
     uint public Age;
     string public Name;
