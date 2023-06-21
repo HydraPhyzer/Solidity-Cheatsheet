@@ -184,7 +184,7 @@ contract DefaultValues{
 ---
 8. Strings in Solidity
 
-```
+```solidity
 contract MyString{
     //State Variables Stored in Blockchain Storage, No Need to Declared Memory Keyword
     string public Name="Muhammad Zubair";
