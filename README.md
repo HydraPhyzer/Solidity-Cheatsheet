@@ -1329,6 +1329,89 @@ contract AllHash{
 }
 ```
 ---
+## Points to Be Noted 🍬
+&nbsp;
+
+## Metamask
+---
+
+MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications
+
+It is Used to 
+    1) Store Ether
+    2) Send Ether
+    3) Receive Ether
+    4) Run Dapps
+    5) Swap Token
+
+Rinkeby Faucet Help us to Generate Fake Ethers, That Has No Value
+
+## Contract Deployement
+---
+
+There are Various Environments in Remix IDE For Cntract Deployement
+
+JVM) Javascript Virtual Machine
+    1) Transaction Exec in Sandbox
+    2) Own Memory blockchain
+    3) Ideal for Testing
+
+Injected WEB3)
+    1) Deploy a Contract on Ethereum MainNet or TestNet
+
+Web3 Provider)
+    1) Connect to a remote Node and Ethereum Client
+
+## Info About Setter Function in Solidity
+---
+
+
+When We Call a Setter Function It Creates Transaction that Needs to be Mined and Cost Gas Because IT Changes
+the Blockchain. But No Cost For Getter Function
+
+## Integers in Solidity
+---
+
+Int Vs Uint
+    1) Integers are Signed Numbers
+    2) Uintegers are Unsigned Numbers
+
+    By Default Both Have Value 0
+    
+    3) int Alias to int256
+    4) uint Alias to uint256
+
+    5) int8 to int 256
+    6) uint8 to uint256
+
+    7) int8 =-128 to 127 || uint8=0 to 255
+    8) int16 =-32768 to 32767 || uint16=0 to 65535
+
+    9) Formulaes:
+        int=-2^(n-1) to 2^(n-1)-1
+        uint=0 to 2^n-1
+
+## Trick to Create Dynamic Arrays in Solidity
+---
+
+```solidity
+function createDynamicArray() external pure returns (uint256[] memory) {
+        uint256[] memory dynamicArray = new uint256[](1000);
+
+        // Populate the dynamic array with elements
+        dynamicArray[0] = 1;
+        dynamicArray[1] = 2;
+        dynamicArray[2] = 3;
+        dynamicArray[3] = 4;
+        dynamicArray[4] = 5;
+
+        return dynamicArray;
+    }
+```
+In Fixed Size Bytes Arrays, Bytes Array Are Immutable. It Means We Cannot Change the Value at Any Index
+
+---
+
 &nbsp;
 
 <a href="https://github.com/HydraPhyzer">![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/106366894?v=4&h=100&w=100&fit=cover&maxage=7d) &nbsp;&nbsp; </a>
